@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D0359805-F186-4E68-B8F7-FB0DC9717392}</ProjectGuid>
+    <ProjectGuid>{A965B6D5-CC49-4DD6-806C-15D8FC309B51}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WindowsFormsApp1</RootNamespace>
-    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <RootNamespace>Multiple_Document_Interface</RootNamespace>
+    <AssemblyName>Multiple-Document_Interface</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,50 +45,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomDialog.cs">
+    <Compile Include="ChildForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CustomDialog.Designer.cs">
-      <DependentUpon>CustomDialog.cs</DependentUpon>
+    <Compile Include="ChildForm.Designer.cs">
+      <DependentUpon>ChildForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dialogs.cs">
+    <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Dialogs.Designer.cs">
-      <DependentUpon>Dialogs.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FoodForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FoodForm.Designer.cs">
-      <DependentUpon>FoodForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FoodSet.cs" />
-    <Compile Include="FoodSetUserControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="FoodSetUserControl.Designer.cs">
-      <DependentUpon>FoodSetUserControl.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MenusAndToolbars.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MenusAndToolbars.Designer.cs">
-      <DependentUpon>MenusAndToolbars.cs</DependentUpon>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CustomDialog.resx">
-      <DependentUpon>CustomDialog.cs</DependentUpon>
+    <EmbeddedResource Include="ChildForm.resx">
+      <DependentUpon>ChildForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dialogs.resx">
-      <DependentUpon>Dialogs.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FoodSetUserControl.resx">
-      <DependentUpon>FoodSetUserControl.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MenusAndToolbars.resx">
-      <DependentUpon>MenusAndToolbars.cs</DependentUpon>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
