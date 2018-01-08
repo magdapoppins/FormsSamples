@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsSamples", "Wind
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiple-Document_Interface", "Multiple-Document_Interface\Multiple-Document_Interface.csproj", "{A965B6D5-CC49-4DD6-806C-15D8FC309B51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Single-Document_Interface", "Single-Document_Interface\Single-Document_Interface.csproj", "{136C6D2A-C4FA-4A6F-8F43-CB2E5B4635FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A965B6D5-CC49-4DD6-806C-15D8FC309B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A965B6D5-CC49-4DD6-806C-15D8FC309B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A965B6D5-CC49-4DD6-806C-15D8FC309B51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{136C6D2A-C4FA-4A6F-8F43-CB2E5B4635FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{136C6D2A-C4FA-4A6F-8F43-CB2E5B4635FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{136C6D2A-C4FA-4A6F-8F43-CB2E5B4635FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{136C6D2A-C4FA-4A6F-8F43-CB2E5B4635FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
